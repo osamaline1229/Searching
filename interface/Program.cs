@@ -1,18 +1,24 @@
-﻿internal class Program
+﻿namespace Library_Management_System
 {
-    private static void Main(string[] args)
+    internal class Program
     {
-        int[] a = {1, 2,3,4,5,6,67,8,9,10};
-        for (int i = 0; i < a.Length; i++)
+        static void Main(string[] args)
         {
-            Console.WriteLine(a[i]);
-        }
-        Console.WriteLine("printing for each");
-        foreach(int i in a)
-        {
-            Console.WriteLine(i);
-        }
+            Console.Write("Welcome To WhatIsFun Library Management System!!!\nEnter your password :");
+            string password = Console.ReadLine();
 
+            if (password == "Mohd")
+            {
+                Console.WriteLine("Hello, World!");
+                Library m = new Library();
+                m.Menu();
 
+            }
+            else
+            {
+                Console.WriteLine("Invalid Password");
+                Main(args);
+            }
+        }
     }
 }
