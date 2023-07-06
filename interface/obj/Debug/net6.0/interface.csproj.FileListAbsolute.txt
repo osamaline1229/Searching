@@ -3,3 +3,13 @@ C:\Users\TRA\Desktop\code-TRA\interface\obj\Debug\net6.0\interface.GeneratedMSBu
 C:\Users\TRA\Desktop\code-TRA\interface\obj\Debug\net6.0\interface.AssemblyInfoInputs.cache
 C:\Users\TRA\Desktop\code-TRA\interface\obj\Debug\net6.0\interface.AssemblyInfo.cs
 C:\Users\TRA\Desktop\code-TRA\interface\obj\Debug\net6.0\interface.csproj.CoreCompileInputs.cache
+C:\Users\TRA\Desktop\code-TRA\interface\bin\Debug\net6.0\interface.exe
+C:\Users\TRA\Desktop\code-TRA\interface\bin\Debug\net6.0\interface.deps.json
+C:\Users\TRA\Desktop\code-TRA\interface\bin\Debug\net6.0\interface.runtimeconfig.json
+C:\Users\TRA\Desktop\code-TRA\interface\bin\Debug\net6.0\interface.dll
+C:\Users\TRA\Desktop\code-TRA\interface\bin\Debug\net6.0\interface.pdb
+C:\Users\TRA\Desktop\code-TRA\interface\obj\Debug\net6.0\interface.dll
+C:\Users\TRA\Desktop\code-TRA\interface\obj\Debug\net6.0\refint\interface.dll
+C:\Users\TRA\Desktop\code-TRA\interface\obj\Debug\net6.0\interface.pdb
+C:\Users\TRA\Desktop\code-TRA\interface\obj\Debug\net6.0\interface.genruntimeconfig.cache
+C:\Users\TRA\Desktop\code-TRA\interface\obj\Debug\net6.0\ref\interface.dll
