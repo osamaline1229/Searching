@@ -1,14 +1,31 @@
 ﻿using File;
 using System;
 
-internal class Program
+using System;
+using System.Threading;
+
+enum TrafficLight
 {
-    private static void Main(string[] args)
+    Red,
+    Yellow,
+    Green
+}
+
+class Program
+{
+    static void Main(string[] args)
     {
-        string name = Character.MOHAMMED.ToString();
-        int Age = ((int)AgeGroup.TEENAGER);
+        
+        int duration = 2000;
 
-        Console.WriteLine($"His name {name} and his Age {Age}");
-
+         
+        {
+            foreach (TrafficLight color in Enum.GetValues(typeof(TrafficLight)))
+            {
+                Console.WriteLine("Current color: " + color);
+                Thread.Sleep(duration);
+                //Console.Clear();
+            }
+        }
     }
 }

@@ -6,23 +6,20 @@ using System.Threading.Tasks;
 
 namespace File
 {
-    internal class Class1
-    {
-    }
-    enum AgeGroup
-    {
-        CHILD = 17,
-        TEENAGER = 16,
-        ADULT = 18,
-        SENIOR = 49
+   
+    
 
-
-    }
     enum Character
     {
         SAILM,
         MOHAMMED,
         AHMED,
         OMRAN
+    }
+    public enum Pinvalue
+    {
+        Low,
+        High,
+
     }
 }
