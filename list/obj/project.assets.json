@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TRA\\Desktop\\code-TRA\\C_sharp_List\\C_sharp_List.csproj",
-      "projectName": "C_sharp_List",
-      "projectPath": "C:\\Users\\TRA\\Desktop\\code-TRA\\C_sharp_List\\C_sharp_List.csproj",
+      "projectUniqueName": "C:\\Users\\TRA\\Desktop\\code-TRA\\list\\list.csproj",
+      "projectName": "list",
+      "projectPath": "C:\\Users\\TRA\\Desktop\\code-TRA\\list\\list.csproj",
       "packagesPath": "C:\\Users\\TRA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TRA\\Desktop\\code-TRA\\C_sharp_List\\obj\\",
+      "outputPath": "C:\\Users\\TRA\\Desktop\\code-TRA\\list\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TRA\\AppData\\Roaming\\NuGet\\NuGet.Config",

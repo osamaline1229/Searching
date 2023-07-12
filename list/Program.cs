@@ -1,6 +1,4 @@
-﻿using C_sharp_List;
-
-internal class Program
+﻿internal class Program
 {
     private static void Main(string[] args)
     {
@@ -12,6 +10,15 @@ internal class Program
         {
             Console.WriteLine(i);
         }
+
+        List<int> list = new List<int>();
+        list.Add(1);
+        list.Add(2);
+        list.Add(3);
+        list.Add(4);
+        list.Add(5);
+        list.Add(6);
+
 
     }
 }
