@@ -1,0 +1,15 @@
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\bin\Debug\net6.0\C_sharp_List.exe
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\bin\Debug\net6.0\C_sharp_List.deps.json
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\bin\Debug\net6.0\C_sharp_List.runtimeconfig.json
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\bin\Debug\net6.0\C_sharp_List.dll
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\bin\Debug\net6.0\C_sharp_List.pdb
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\obj\Debug\net6.0\C_sharp_List.csproj.AssemblyReference.cache
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\obj\Debug\net6.0\C_sharp_List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\obj\Debug\net6.0\C_sharp_List.AssemblyInfoInputs.cache
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\obj\Debug\net6.0\C_sharp_List.AssemblyInfo.cs
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\obj\Debug\net6.0\C_sharp_List.csproj.CoreCompileInputs.cache
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\obj\Debug\net6.0\C_sharp_List.dll
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\obj\Debug\net6.0\refint\C_sharp_List.dll
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\obj\Debug\net6.0\C_sharp_List.pdb
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\obj\Debug\net6.0\C_sharp_List.genruntimeconfig.cache
+C:\Users\TRA\Desktop\code-TRA\C_sharp_List\obj\Debug\net6.0\ref\C_sharp_List.dll
