@@ -8,6 +8,10 @@ internal class Program
         person.Add(new person(34002, "7hoom", "Male", "Ectrical"));
         person.Add(new person(35002, "Nora", "Female", "Software Engineering"));
         person.Add(new person(34002, "Maryam", "Feale", "Medical"));
+        foreach (var i in person)
+        {
+            Console.WriteLine(i);
+        }
 
     }
 }
