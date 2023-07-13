@@ -1,24 +1,25 @@
-﻿internal class Program
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+internal class stack
 {
-    private static void Main(string[] args)
+    public static void Main(String[] args)
     {
-        List<person> person = new List<person>();
-        person.Add(new person(34002, "7hoom", "Male", "Ectrical"));
-        person.Add(new person(35002, "Nora", "Female", "Software Engineering"));
-        person.Add(new person(34002, "Maryam", "Feale", "Medical"));
-        foreach (var i in person)
-        {
-            Console.WriteLine(i);
-        }
+        string s1 = "Educative";
 
-        List<int> list = new List<int>();
-        list.Add(1);
-        list.Add(2);
-        list.Add(3);
-        list.Add(4);
-        list.Add(5);
-        list.Add(6);
+        // remove some characters
+        // remove from the 4th character
+        // but remove just 2
+        string s2 = s1.Remove(0, 1);
 
+        // print returned value
+        System.Console.WriteLine(s2);
 
-    }
+    }   
 }
+    
+        
+
+   
+        
+    

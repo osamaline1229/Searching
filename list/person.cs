@@ -1,37 +1,104 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace C_sharp_List
+using System;
+using System.Collections.Generic;
+
+public class BalancedBrackets
 {
-    internal class person
+    public class stack
     {
-        public int id;
-        public string name;
-        public string gender;
-        public string specialization;
+        public int top = -1;
+        public char[] items = new char[100];
 
-        public person(int id, string name, string gender, string specialization)
+        public void push(char x)
         {
-            this.id = id;
-            this.name = name;
-            this.specialization = specialization;
+            if (top == 99)
+            {
+                Console.WriteLine("Stack full");
+            }
+            else
+            {
+                items[++top] = x;
+            }
         }
 
-        public int CompareTo(person? other)
+        char pop()
         {
-            if(other == null)
+            if (top == -1)
             {
-                return 1;
+                Console.WriteLine("Underflow error");
+                return '\0';
             }
-            if(other.Age == this.Age)
-            
-                return 0;
-            if(other.Age > this.Age) return -1;
+            else
+            {
+                char element = items[top];
+                top--;
+                return element;
+            }
+        }
 
-            return 1;
+        Boolean isEmpty()
+        {
+            return (top == -1) ? true : false;
+        }
+    }
+
+    static Boolean isMatchingPair(char character1,
+                                  char character2)
+    {
+        if (character1 == '(' && character2 == ')')
+            return true;
+        else if (character1 == '{' && character2 == '}')
+            return true;
+        else if (character1 == '[' && character2 == ']')
+            return true;
+        else
+            return false;
+    }
+
+
+    static Boolean areBracketsBalanced(char[] exp)
+    {
+
+        Stack<char> st = new Stack<char>();
+
+
+        for (int i = 0; i < exp.Length; i++)
+        {
+
+            if (exp[i] == '{' || exp[i] == '('
+                || exp[i] == '[')
+                st.Push(exp[i]);
+
+
+            if (exp[i] == '}' || exp[i] == ')'
+                || exp[i] == ']')
+            {
+
+                if (st.Count == 0)
+                {
+                    return false;
+                }
+
+
+                else if (!isMatchingPair(st.Pop(),
+                                         exp[i]))
+                {
+                    return false;
+                }
+            }
+        }
+
+
+
+        if (st.Count == 0)
+            return true;
+        else
+        {
+
+            return false;
         }
     }
 }
+ 
