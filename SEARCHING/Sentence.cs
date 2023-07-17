@@ -5,47 +5,24 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-public class BracketChecker
+class Sentence
 {
-    public bool CheckBalance(string input)
+    public string RemoveWord(string sentence, string wordToRemove)
     {
-        Stack<char> stack = new Stack<char>();
+        string[] words = sentence.Split(' ');
 
-        foreach (char c in input)
+        for (int i = 0; i < words.Length; i++)
         {
-            if (IsOpeningBracket(c))
+            if (words[i].Equals(wordToRemove, StringComparison.OrdinalIgnoreCase))
             {
-                stack.Push(c);
-            }
-            else if (IsClosingBracket(c))
-            {
-                if (stack.Count == 0 || !AreMatchingBrackets(stack.Peek(), c))
-                {
-                    return false;
-                }
-
-                stack.Pop();
+                words[i] = string.Empty; // Remove the word
             }
         }
 
-        return stack.Count == 0;
-    }
+        string result = string.Join(" ", words);
+        result = result.Trim(); // Remove leading/trailing spaces
 
-    private bool IsOpeningBracket(char c)
-    {
-        return c == '(' || c == '{' || c == '[';
-    }
-
-    private bool IsClosingBracket(char c)
-    {
-        return c == ')' || c == '}' || c == ']';
-    }
-
-    private bool AreMatchingBrackets(char openingBracket, char closingBracket)
-    {
-        return (openingBracket == '(' && closingBracket == ')') ||
-               (openingBracket == '{' && closingBracket == '}') ||
-               (openingBracket == '[' && closingBracket == ']');
+        return result;
     }
 }
 

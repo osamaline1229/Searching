@@ -6,20 +6,15 @@ class Program
     static void Main(string[] args)
     {
 
-        BracketChecker bracketChecker = new BracketChecker();
+        Console.WriteLine("Enter a sentence:");
+        string sentence = Console.ReadLine();
 
-        
-        string input1 = "((()])";           
-        string input2 = "{[()]}";           
-        string input3 = "([{}])";           
-        string input4 = "((()))))";         
-        string input5 = "[[{(())}]]";       
+        Console.WriteLine("Enter the word to remove:");
+        string wordToRemove = Console.ReadLine();
 
-        Console.WriteLine($"Input1: {bracketChecker.CheckBalance(input1)}"); 
-        Console.WriteLine($"Input2: {bracketChecker.CheckBalance(input2)}"); 
-        Console.WriteLine($"Input3: {bracketChecker.CheckBalance(input3)}"); 
-        Console.WriteLine($"Input4: {bracketChecker.CheckBalance(input4)}"); 
-        Console.WriteLine($"Input5: {bracketChecker.CheckBalance(input5)}"); 
+        Sentence manipulator = new Sentence();
+        string result = manipulator.RemoveWord(sentence, wordToRemove);
+        Console.WriteLine("Result: " + result);
 
 
 
