@@ -5,26 +5,69 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-class Sentence
+
+
+
+public class Node
 {
-    public string RemoveWord(string sentence, string wordToRemove)
+    public int data;
+    public Node left;
+    public Node right;
+
+    public Node(int item)
     {
-        string[] words = sentence.Split(' ');
-
-        for (int i = 0; i < words.Length; i++)
-        {
-            if (words[i].Equals(wordToRemove, StringComparison.OrdinalIgnoreCase))
-            {
-                words[i] = string.Empty; // Remove the word
-            }
-        }
-
-        string result = string.Join(" ", words);
-        result = result.Trim(); // Remove leading/trailing spaces
-
-        return result;
+        data = item;
+        left = right = null;
     }
 }
+
+public class BinaryTree
+{
+    private Node root;
+
+    public BinaryTree()
+    {
+        root = null;
+    }
+
+    public void Insert(int data)
+    {
+        root = Insert(root, data);
+    }
+
+    private Node Insert(Node node, int data)
+    {
+        if (node == null)
+        {
+            node = new Node(data);
+            return node;
+        }
+
+        if (data < node.data)
+            node.left = Insert(node.left, data);
+        else if (data > node.data)
+            node.right = Insert(node.right, data);
+
+        return node;
+    }
+
+    public void Display()
+    {
+        Display(root);
+    }
+
+    private void Display(Node node)
+    {
+        if (node == null)
+            return;
+
+        Display(node.left);
+        Console.Write(node.data + " ");
+        Display(node.right);
+    }
+}
+
+
 
 
 //            public int top = -1;
