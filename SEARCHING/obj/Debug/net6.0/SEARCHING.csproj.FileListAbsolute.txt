@@ -1,0 +1,15 @@
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\bin\Debug\net6.0\SEARCHING.exe
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\bin\Debug\net6.0\SEARCHING.deps.json
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\bin\Debug\net6.0\SEARCHING.runtimeconfig.json
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\bin\Debug\net6.0\SEARCHING.dll
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\bin\Debug\net6.0\SEARCHING.pdb
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\obj\Debug\net6.0\SEARCHING.csproj.AssemblyReference.cache
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\obj\Debug\net6.0\SEARCHING.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\obj\Debug\net6.0\SEARCHING.AssemblyInfoInputs.cache
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\obj\Debug\net6.0\SEARCHING.AssemblyInfo.cs
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\obj\Debug\net6.0\SEARCHING.csproj.CoreCompileInputs.cache
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\obj\Debug\net6.0\SEARCHING.dll
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\obj\Debug\net6.0\refint\SEARCHING.dll
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\obj\Debug\net6.0\SEARCHING.pdb
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\obj\Debug\net6.0\SEARCHING.genruntimeconfig.cache
+C:\Users\TRA\Desktop\code-TRA\SEARCHING\obj\Debug\net6.0\ref\SEARCHING.dll
